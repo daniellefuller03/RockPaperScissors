@@ -66,7 +66,7 @@ const playGame = () => {
   userChoice = getUserChoice('paper')
   console.log(`You entered: ${userChoice}`)
   computerChoice = getComputerChoice()
-  console.log(`The computered entered: ${computerChoice}`)
+  console.log(`The computer entered: ${computerChoice}`)
 
   console.log(determineWinner(userChoice, computerChoice))
 }
